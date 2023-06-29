@@ -1,0 +1,75 @@
+.contact_container {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+
+}
+.contact_header{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 1200;
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+#myForm{
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    text-align: left;
+}
+.contact_label{
+    font-family: 'Roboto', sans-serif;
+}
+.contact_input, #enquirytype, #gender, #message{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.contact_input:focus, .contact_input:hover,
+#enquirytype:focus, #enquirytype:hover,
+#gender:focus, #gender:hover,
+#message:focus, #message:hover{
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+#message{
+    height: 100px;
+}
+@-webkit-keyframes glow {
+    from {text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #6E0DD0, 0 0 10px #6E0DD0, 0 0 12px #6E0DD0, 0 0 15px #6E0DD0, 0 0 17px #6E0DD0;}
+    to {text-shadow: 0 0 2px #fff, 0 0 5px #9900FF, 0 0 10px #9900FF, 0 0 12px #9900FF, 0 0 15px #9900FF, 0 0 17px #9900FF, 0 0 20px #9900FF;}
+}
+.end_button{
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.end_button:hover{
+    background: rgba(0,0,0);
+    color: white;
+}
+.button_container{
+    width: 100%;
+    text-align: center;
+}
+
+

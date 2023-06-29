@@ -1,0 +1,75 @@
+.table-container{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+}
+table{
+    color: white;
+    padding: 20px;
+    width:100%;
+}
+.result{
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    font-size: 3rem;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.head{
+    font-size: 1rem;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    white-space: nowrap;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.table-head{
+    font-size: 1rem;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    white-space: nowrap;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+tr{
+    padding: 50px;
+}
+.content{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.content1{
+    text-align: center;
+    font-size: 20px;
+}
+.content a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+.content a:hover{
+    color: #000000;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #6E0DD0, 0 0 10px #6E0DD0, 0 0 12px #6E0DD0, 0 0 15px #6E0DD0, 0 0 17px #6E0DD0;
+    }
+    to {
+        text-shadow: 0 0 2px #fff, 0 0 5px #9900FF, 0 0 10px #9900FF, 0 0 12px #9900FF, 0 0 15px #9900FF, 0 0 17px #9900FF, 0 0 20px #9900FF;
+    }
+}
+.content-img{
+    padding: 20px;
+}
